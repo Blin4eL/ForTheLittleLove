@@ -1,0 +1,348 @@
+body{
+    font-family: 'Righteous', cursive;
+    font-size: 13px;
+    color: #191616;
+    margin: 0;
+    height: 2300px;
+    -webkit- font-smoothing: antialiased;
+}
+
+
+
+*,
+*:before
+*:after{
+    box-sizing: border-box;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0 auto;
+
+
+}
+
+p {
+   margin: 0 0 10px;
+}
+
+
+.container{
+    width: 100%;
+    max-width
+    margin: 0 0;
+    position: absolute;
+    height: 100px;
+}
+
+
+/*----Header----*/
+
+
+.header{
+    width: 100%;
+    max-width
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    height: 750px;
+
+
+}
+
+
+
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+
+}
+
+.header__logo{
+    padding-right: 15px;
+    padding-top: 25px;
+}
+
+
+.queen{
+    width: 100px;
+    opacity: .90;
+
+
+}
+
+.queen:hover{
+    opacity: 1;
+
+}
+
+
+
+/*----Intro----*/
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 100%;
+    width: 100%;
+
+    background: url(castle6.jpg) no-repeat center / cover;
+
+
+}
+
+.intro__inner{
+        width: 100%;
+        max-width: ;
+
+        text-align: center;
+
+    }
+
+.intro__title{
+    margin-bottom: 30px;
+
+    font-size: 75px;
+    color: rgb(230, 230, 65);
+
+    opacity: 1;
+    text-shadow: #091f3e 3px 3px 0;
+
+}
+
+.intro__subtitle{
+    font-size: 40px;
+    color: #f4709e;
+    opacity: 1;
+    text-shadow: #28163e 3px 3px 0;
+
+}
+
+
+
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+
+
+}
+
+
+.container2{
+    font-family: 'Righteous', cursive;
+    height: 750px;
+
+}
+
+
+.titlepic{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 750px;
+    width: 100%;
+
+    background: url(little%20princess%202.jpg.jpg) no-repeat center / cover;
+
+
+}
+
+
+
+
+.nav{
+    height: 200px;
+    width: 200px;
+
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+
+    margin-top: 50px;
+    line-height: 1.5;
+
+    margin-left: 110px;
+}
+
+
+
+.nav__link{
+
+    text-decoration: none;
+    opacity: .9;
+    transition: .1s linear;
+    color: #5a5d56;
+    text-shadow: #d4d0d0 3px 3px 0;
+
+
+
+}
+
+
+.nav__link:hover{
+    opacity: 1;
+    color: #ffffff;
+
+}
+
+/*----Secondtitle----*/
+
+.container3{
+    width: 100%;
+    height: 750px;
+    max-width
+    margin: 0 auto;
+    position: absolute;
+
+    background: url(%D0%BD%D0%B5%D0%B6%D0%BD%D1%8B%D0%B9%20%D1%84%D0%BE%D0%BD.jpg) no-repeat center / cover;
+}
+
+
+
+.subtitle{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+
+    color: #d3a5e8;
+    text-shadow: #b468d4 3px 3px 0;
+
+    padding-top: 35px;
+}
+
+
+
+.choose{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 150px;
+
+}
+
+
+
+
+.put{
+    font-size: 35px;
+    text-decoration: none;
+
+}
+
+
+.put1{
+    text-transform: uppercase;
+
+    font-size: 25px;
+    color: #ffb8e1;
+    text-shadow: #e192d8 2px 2px 0;
+    border-bottom 3px solid #f591df;
+
+
+
+}
+
+.put2{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #00d8ff;
+    text-shadow: #008da7 2px 2px 0;
+    border-bottom 3px solid #f591df;
+}
+
+
+.all_content{
+    display flex
+    justify-content
+
+}
+
+
+
+.text{
+    display: flex;
+    justify-content:space-around;
+
+    margin-top: 20px;
+
+}
+
+.size__text{
+    width
+
+}
+
+
+.text1{
+    padding-left:50px;
+    color: #4e4e4e;
+
+}
+
+.text2{
+    padding-left: 50px;
+    color: #4e4e4e;
+
+}
+
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 60px;
+}
+
+
+
+.icon1{
+    width: 110px;
+    opacity: .8;
+    transition: .1s linear;
+
+}
+
+.icon1:hover{
+    opacity: 1;
+    border: 8px double #ffdfd4;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.icon2{
+    width: 110px;
+    opacity: .8;
+    transition: .1s linear;
+
+}
+
+.icon2:hover{
+    opacity: 1;
+    border: 8px double #99ebfa;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+/* put     color: #d09be8;
+    text-shadow: #b772d4 2px 2px 0;  */
+
+
+/*     color: #f4b7da;
+    text-shadow: #ff48ea 2px 2px 0; */
+
